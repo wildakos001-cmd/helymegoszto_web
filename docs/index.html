@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/helymegoszto_web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Családi Helymegosztó Rendszer - Admin Dashboard">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Helymegosztó">
+  <!-- Ikonok a lib/ mappában vannak -->
+  <link rel="apple-touch-icon" href="lib/icons/Icon-192.png">
+
+  <!-- Favicon a lib/ mappában -->
+  <link rel="icon" type="image/png" href="lib/favicon.png"/>
+
+  <title>Admin Dashboard</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Flutter konfiguráció az új mappaszerkezethez -->
+  <script>
+    window.flutterConfiguration = {
+      // Megadjuk, hogy az assetek a lib mappában vannak
+      assetBase: "lib/",
+      // Megadjuk a canvaskit pontos helyét
+      canvasKitBaseUrl: "lib/canvaskit/"
+    };
+  </script>
+</head>
+<body>
+  <!-- A fő betöltő szkript marad a gyökérben -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
